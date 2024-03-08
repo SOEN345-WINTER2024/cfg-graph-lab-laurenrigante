@@ -8,24 +8,34 @@ STEP 1-6 CALCULATOR APP
 
 step 1) control flow graph
 
+
+
 <img width="393" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/3b3c7632-3699-455d-a834-81ce0803ebb2">
 
 
 
 step 2) node coverage
+
+
 <img width="250" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/0e116dd0-a7d7-44a0-b689-98584d3dcd3a">
 
 
 step 3) edge coverage
+
+
 <img width="394" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/7a5d6e43-2738-4b56-8b60-7eb2d017cb9c">
 
 
 
 step 4) edge-pair coverage
+
+
 <img width="455" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/555ef029-0b6e-48c9-8210-ddc7de4d9884">
 
 
 step 5)  event flow graph
+
+
 <img width="255" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/3a8e5a8d-03da-422e-8a51-6924ae40262a">
 
 step 6)
@@ -35,18 +45,28 @@ step 6)
 # For selected app -- antimine
 
 Step 1) control flow graph
+
+
 <img width="320" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/a6fcac5f-eecb-4532-acea-71bfc68ccf75">
 
 step 2) node coverage
+
+
 <img width="178" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/9353037c-4ec3-45c9-964f-d85a47625d6f">
 
 step 3) edge coverage
+
+
 <img width="206" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/444198ad-1c6a-438c-9741-c70dc148d94c">
 
 step 4) edge pair coverage
+
+
 <img width="398" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/ac6749b7-0736-4729-9f84-5a149648941c">
 
 step 5) event flow graph
+
+
 <img width="241" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/4c2e1e5e-47d3-4267-b013-c5a89f252a92">
 
 
