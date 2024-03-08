@@ -43,45 +43,45 @@ Here is the script i wrote for the calculator app. I used chatgpt to help me gen
 ------------------------------
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice
 
-# Connect to the device
+#Connect to the device
 device = MonkeyRunner.waitForConnection()
 
-# Launch the application
+#Launch the application
 package = 'com.bradteachescode.basiccalculator'
 activity = 'com.bradteachescode.basiccalculator.MainActivity'
 device.startActivity(component=package + '/' + activity)
 
-# Wait for the app to load
+#Wait for the app to load
 MonkeyRunner.sleep(2)
 
-# Function to perform a click on a button by its resource id
+#Function to perform a click on a button by its resource id
 def click_button(resource_id):
     device.touch(resource_id[0], resource_id[1], MonkeyDevice.DOWN_AND_UP)
     MonkeyRunner.sleep(1)
 
-# Function to perform digit input
+#Function to perform digit input
 def input_digit(digit):
     click_button((360, 850))  # Click on the digit buttons area
     MonkeyRunner.sleep(1)
     click_button((digit_coordinates[digit]))  # Click on the specific digit button
     MonkeyRunner.sleep(1)
 
-# Function to perform symbol input
+#Function to perform symbol input
 def input_symbol(symbol):
     click_button(symbol_coordinates[symbol])
     MonkeyRunner.sleep(1)
 
-# Function to perform equals input
+#Function to perform equals input
 def input_equals():
     click_button((930, 1640))  # Click on the equals button
     MonkeyRunner.sleep(1)
 
-# Function to perform clear input
+#Function to perform clear input
 def input_clear():
     click_button((660, 1640))  # Click on the clear button
     MonkeyRunner.sleep(1)
 
-# Dictionary mapping digit buttons to their coordinates
+#Dictionary mapping digit buttons to their coordinates
 digit_coordinates = {
     '0': (360, 1640),
     '1': (360, 1230),
@@ -96,7 +96,7 @@ digit_coordinates = {
     '.': (660, 1640)  # Decimal button
 }
 
-# Dictionary mapping symbol buttons to their coordinates
+#Dictionary mapping symbol buttons to their coordinates
 symbol_coordinates = {
     '+': (1320, 1230),
     '-': (1320, 1420),
@@ -104,17 +104,17 @@ symbol_coordinates = {
     '/': (1320, 1640)
 }
 
-# Input numbers and perform operations
+#Input numbers and perform operations
 input_digit('1')
 input_symbol('+')
 input_digit('2')
 input_equals()
 
-# Capture screenshot after performing operation
+#Capture screenshot after performing operation
 screenshot = device.takeSnapshot()
 screenshot.writeToFile('screenshot.png', 'png')
 
-# Close the application
+#Close the application
 device.press('KEYCODE_HOME', MonkeyDevice.DOWN_AND_UP)  # Press the HOME button
 MonkeyRunner.sleep(2)
 device.press('KEYCODE_HOME', MonkeyDevice.DOWN_AND_UP)  # Press the HOME button again to ensure app closure
