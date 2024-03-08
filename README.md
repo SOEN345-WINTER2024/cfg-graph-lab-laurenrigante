@@ -1,6 +1,6 @@
 
 
-##lauren rigante
+# lauren rigante
 40188593
 
 
@@ -32,7 +32,7 @@ step 6)
 
 
 
-##For selected app -- antimine
+# For selected app -- antimine
 
 Step 1) control flow graph
 <img width="320" alt="image" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-laurenrigante/assets/93160873/a6fcac5f-eecb-4532-acea-71bfc68ccf75">
